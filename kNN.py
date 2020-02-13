@@ -17,6 +17,7 @@ import operator
 # version 01
 # func createDataSet()
 # para void
+# out void
 '''
 def createDataSet():
     dataSet = array([[1.0, 1.1], [1.0, 1.0], [0.0, 0.0], [0.0, 0.1]])
@@ -36,6 +37,8 @@ def createDataSet():
     @ dataSet 预先设置的数据集合
     @ lables  对应数据集合标签向量
     @ k       要求匹配的样本数目
+# out 
+    @ sortedClassCount[0][0] 数据处理后得出的标签
 '''
 def classifyDir(inX, dataSet, lables, k):
     dataSize = dataSet.shape[0]                     #dataSize 与 dataSet.shape[0]代表行数
@@ -69,6 +72,9 @@ def classifyDir(inX, dataSet, lables, k):
 # func fileMatrix(filename)
 # para 
     @ filename 文件名
+# out 
+    @ returnMat 返回处理后的数据集
+    @ classLabelVector 返回处理后的标签数据集
 '''
 def file2Matrix(fileName):
     fileOpen = open(fileName)                       #输入参数文件名打开文件
@@ -95,6 +101,7 @@ def file2Matrix(fileName):
 # para 
     @ dataMat 合适的数据格式，file2Matrix返回的数据矩阵
     @ dataLabel 合适的数据格式，file2Matrix返回的数据标签
+# out void
 '''
 def dataMatPlot(dataMat, dataLabel):
     plt.figure(figsize = (6, 6), dpi = 80)
@@ -143,6 +150,26 @@ def dataMatPlot(dataMat, dataLabel):
     '''
     return
 
+
+'''
+# kNN算法python
+# use for 归一化数值
+# 2020 02 11
+# version 01
+# func autoNorm(dataSet)
+# para 
+    @ dataSet 输入数据集
+# out
+    @ normDataSet 归一化后的数据集
+'''
+def autoNorm(dataSet):
+    minValue = dataSet.min(0)
+    maxValue = dataSet.max(0)
+    ranges = maxValue - minValue
+    normDataSet = zeros(shape(dataSet))
+    m = dataSet.shape(0)
+
+    return normDataSet
 
 '''
 # kNN算法python k近邻算法
