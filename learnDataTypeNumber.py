@@ -138,7 +138,7 @@ def stringPython():
 
 
 #
-# Python L
+# Python List
 # python 列表
 #
 def listPython():
@@ -151,15 +151,100 @@ def listPython():
     列表的数据项不需要具有相同的类型
     创建一个列表，只要把逗号分隔的不同的数据项使用方括号括起来即可
     '''
+    list1 = ['Google', 'Runoob', 1997, 2000]
+    list2 = [1, 2, 3, 4, 5]
+    list3 = ["a", "b", "c", "d"]
+
+    print("list1[0]: ", list1[0])
+    print("list2[1:5]: ", list2[1:5])
+    if "a" in  list3 :
+        print('a在list3中。')
+    #updata list
+    #列表的成员是可变的，而字符串中是不可变的
+    list1[2] = 'doudou'
+    print(list1[2])
+    print(list1[0:3]) #list1[0] list1[1] list1[2]
+    #list.append()方法
+    #del 可以用来删除列表中的某一个元素，成为新的列表
+    del list1[2]
+    print(list1)
+
+    if 3 in list1:
+        print(True)
+    for temp in list1:
+        print(temp)
+    print(len(list1))
+    print(list1 + list2)
+    print(list1 * 4)
+    print(list1[-1])
+    #列表函数和方法
+    len(list1)
+    max(list1)
+    min(list1)
+    tempSeq = ('dou','dan','在','一','起') #元组
+    tempList = list(tempSeq)
+    print(tempList) #元组转化为列表
+    tempList.append('233333')
+    '''
+        list.append(obj) 在列表末尾添加新对象
+        list.count(obj) 统计某个对象在列表中出现的次数
+        list.extend(seq) 在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）
+        list.index(obj) 从列表中找出某个值第一个匹配项的索引位置，查找索引值
+        list.insert(index, obj) 将对象插入列表
+        list.pop([index=-1]) 移除列表中的一个元素，默认是对后一个，并返回该元素的值
+        list,remove(obj) 移除列表中的第一个匹配项
+        list.reverse() 反向列表中的元素
+        list.sort(key = None, reverse = False) 对原列表进行排序
+        list.clear() 情况列表
+        list.copy() 复制列表
+    '''
+    #嵌套列表
+    listAdd = [list1, list2, list3]
 
     return
 
+
+#
+# Python Tuple
+# python 元组
+# 元组和列表类似，都是线性表。唯一不同的是，Python的元组被赋值后所存储的数据
+# 不能被程序修改，可以将元组看作是只能读取数据不能修改的列表
+#
+def tuplePython():
+    #创建元组 tuple = () list = []
+    tupleTemp1 = ('Google', 'Runoob', 1997, 2000)
+    tupleTemp2 = "a", "b", "c", "d"  # 不需要括号也可
+    # 空元组
+    tupleTemp3 = ()
+    #元组中只包含一个元素时，需要在元素后面添加逗号，否则括号会被当作运算符使用：
+    tupleTemp4 = (12)
+    print(type(tupleTemp4)) # int
+    tupleTemp5 = (12,)
+    print(type(tupleTemp5))  # tuple
+    #访问元组和访问列表类似
+    print(tupleTemp1[0])
+
+    return
 
 '''
 # debug mode
 # 调试模块
 '''
 if __name__ == '__main__':
+
+    listTemp = []
+    print(type(listTemp))
+    tupleTemp = ()
+    print(type(tupleTemp))
+
+    list1 = ['Google', 'Runoob', 1997, 2000]
+    list1[2] = 'doudou'
+    print(list1[2])
+    print(list1[0:3])
+    tupleTemp = tuple(list1 + listTemp)
+
+
+    '''
     dict = {'name':'Runoob:', 'url':'www.baidu.com'}
     print(f'what is {dict["name"]} {dict["url"]}')
     para_str1 = '丹丹'
@@ -170,5 +255,5 @@ if __name__ == '__main__':
     x  = 1
     print(f'{x+1}')
     print(f'{x+1=}')  # Python 3.8
-
+    '''
     pass
