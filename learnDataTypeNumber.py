@@ -224,13 +224,86 @@ def tuplePython():
     #访问元组和访问列表类似
     print(tupleTemp1[0])
 
+    #创建空元组和单元素的元组
+    tup1 = (50)
+    print(type(tup1))
+    tup2 = (49,)
+    print(type(tup2))
+    #元组中的元素值是不允许修改的，但是我们可以对元组进行连接组合
+    tup3 = tuple(tup1) + tup2
+    #可以删除整个元组
+    del tup3
+    #元组运算符
+    '''
+    len(tuple)
+    tup1 + tup2
+    tuple * 4
+    element in tuple
+    for temp in tuple
+    '''
+    #元组索引和截取
+    #。。。
+
+    #元组内置的函数
+    '''
+    len(tuple)
+    max(tuple)
+    min(tuple)
+    tuple(iterable)
+    '''
+    # 所谓元组的不可变指的是元组所指向的内存中的内容不可变。
+    # 不能做一维操作，如果元组中存在列表等，要另行考虑。
     return
+
+
+#
+# Python Dictionary
+# python 字典
+# 字典是另一种可变容器模型，且可存储任意类型对象。
+# 字典的每个键值(key=>value)对用冒号(:)分割，
+# 每个对之间用逗号(,)分割，整个字典包括在花括号({})中
+# 可变的数据类型: dict = { }, list = []
+# 不可变的数据类型: string = ''或 “”，tuple = （obj1, obj2, ...）或者
+# tuple = obj1, obj2 , number = data;存在多种嵌套。
+#
+def dictPython():
+    #用 \ 来实现多行语句
+    '''
+    total = item_one + \
+        item_two + \
+        item_three
+    :return:
+    '''
+    dictVoid = {}
+    listTuple = (1,)
+    dictTemp = {listTuple: 'doudou', 2: 'dandan', 3: 'qiqi'}
+    #键必须是唯一的，但值则不必。
+    #值可以取任何数据类型，但键必须是不可变的，如字符串，数字或元组。
+    print(dictTemp[(1,)])
+    return
+
 
 '''
 # debug mode
 # 调试模块
 '''
 if __name__ == '__main__':
+
+    dictPython()
+
+    listTest = ['Google', 'Runoob', 1997, 2000]
+    tupleTest = (listTest, 'test', 'doudou', 'dandan')
+    print(type(tupleTest))
+    print(tupleTest[0][1])
+    tupleTest[0][1] = 10
+    print(tupleTest[0][1])
+    for i in range(len(tupleTest[0])):
+        tupleTest[0][i] = []
+    print("clear")
+    #tupleTest[1][0] = 'a' #字符串也是不可变的
+    #tupleTest[1] = tupleTest[1] + tupleTest[2]
+    #tupleTest[0] = ()#对元组的一维操作是不允许的
+    stringTemp = tupleTest[1] + tupleTest[2]
 
     listTemp = []
     print(type(listTemp))

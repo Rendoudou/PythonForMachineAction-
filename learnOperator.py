@@ -177,7 +177,7 @@ def identityOperator():
     print("a的地址位", id(a))
     print("b的地址位", id(b))
 
-    if (a is b):
+    if (a == b):
         print("1 - a 和 b 有相同的标识")
     else:
         print("1 - a 和 b 没有相同的标识")
@@ -193,12 +193,12 @@ def identityOperator():
     print("a的地址位", id(a))
     print("b的地址位", id(b))
 
-    if (a is b):
+    if (a == b):
         print("3 - a 和 b 有相同的标识")
     else:
         print("3 - a 和 b 没有相同的标识")
 
-    if (a is not b):
+    if (a != b):
         print("4 - a 和 b 没有相同的标识")
     else:
         print("4 - a 和 b 有相同的标识")
