@@ -1,3 +1,10 @@
+"""
+# Python学习 操作函数部分
+# editor doudou
+# data 13 02 2020
+# ver 01 初次学习，抄录编辑。0213
+"""
+
 #
 # 算数运算符
 #
@@ -33,19 +40,21 @@ def mathematicsOperator():
     print("7 - c 的值为：", c)
     return
 
+
 #
 # 测试比较关系运算符
 #
 def compareOperator():
-    a = ['a','v','s']
+    a = ['a', 'v', 's']
     print(type(a))
     print(type(a), end="")
-    #if (n := len(a)) > 3:
+    # if (n := len(a)) > 3:
     if len(a) > 3:
         print("n大于3")
     else:
         print("n小于等于3")
     return
+
 
 #
 # 赋值运算符
@@ -78,6 +87,7 @@ def assignmentOperator():
     print("7 - c 的值为：", c)
     return
 
+
 #
 # 位运算符
 #
@@ -101,9 +111,10 @@ def bitOperator():
     c = a << 2  # 240 = 1111 0000
     print("5 - c 的值为：", c)
 
-    c = a >> 2 # 15 = 0000 1111
+    c = a >> 2  # 15 = 0000 1111
     print("6 - c 的值为：", c)
     return
+
 
 #
 # 逻辑运算符
@@ -116,32 +127,33 @@ def logicOperator():
     b = 20
 
     if (a and b):
-        print("a and b 的返回值是", a and  b, " 1 - 变量 a 和 b 都为 true")
+        print("a and b 的返回值是", a and b, " 1 - 变量 a 和 b 都为 true")
     else:
-        print("a and b 的返回值是", a and  b, " 1 - 变量 a 和 b 有一个不为 true")
+        print("a and b 的返回值是", a and b, " 1 - 变量 a 和 b 有一个不为 true")
 
     if (a or b):
-        print("a or b 的返回值是", a or  b, " 2 - 变量 a 和 b 都为 true，或其中一个变量为 true")
+        print("a or b 的返回值是", a or b, " 2 - 变量 a 和 b 都为 true，或其中一个变量为 true")
     else:
-        print("a or b 的返回值是", a or  b, " 2 - 变量 a 和 b 都不为 true")
+        print("a or b 的返回值是", a or b, " 2 - 变量 a 和 b 都不为 true")
 
     # 修改变量 a 的值
     a = 0
     if (a and b):
-        print("a and b 的返回值是", a and  b, " 3 - 变量 a 和 b 都为 true")
+        print("a and b 的返回值是", a and b, " 3 - 变量 a 和 b 都为 true")
     else:
-        print("a and b 的返回值是", a and  b, " 3 - 变量 a 和 b 有一个不为 true")
+        print("a and b 的返回值是", a and b, " 3 - 变量 a 和 b 有一个不为 true")
 
     if (a or b):
-        print("a or b 的返回值是", a or  b, " 4 - 变量 a 和 b 都为 true，或其中一个变量为 true")
+        print("a or b 的返回值是", a or b, " 4 - 变量 a 和 b 都为 true，或其中一个变量为 true")
     else:
-        print("a or b 的返回值是", a or  b, " 4 - 变量 a 和 b 都不为 true")
+        print("a or b 的返回值是", a or b, " 4 - 变量 a 和 b 都不为 true")
 
     if not (a and b):
         print("5 - 变量 a 和 b 都为 false，或其中一个变量为 false")
     else:
         print("5 - 变量 a 和 b 都为 true")
     return
+
 
 #
 # 成员运算符
@@ -150,7 +162,7 @@ def logicOperator():
 #
 def memberOperator():
     lista = [1, 2, 3, '2', 'a', 5]
-    listB = [1,2,2,3,1,2,3,1,2,3,1,3,1,2,3,1,3,2,1]
+    listB = [1, 2, 2, 3, 1, 2, 3, 1, 2, 3, 1, 3, 1, 2, 3, 1, 3, 2, 1]
     n = listB.pop()
     print(listB)
     if 'a' in lista:
@@ -163,6 +175,7 @@ def memberOperator():
     else:
         print("a在列表lista中。")
     return
+
 
 #
 # 身份运算符
@@ -204,6 +217,7 @@ def identityOperator():
         print("4 - a 和 b 有相同的标识")
     return
 
+
 #
 # python运算符优先级
 # 不需要死记硬背
@@ -241,10 +255,10 @@ def priorityOperator():
         print("no")
     return
 
+
 #
 # debugMode
 # prepare for debug itself
 #
 if __name__ == '__main__':
-
     pass
