@@ -3,7 +3,9 @@
 # editor doudou
 # data 13 02 2020
 # ver 01 初次学习，抄录编辑。0213
+# ver 02 file format.0219
 """
+
 
 #
 # 算数运算符
@@ -126,29 +128,29 @@ def logicOperator():
     a = 10
     b = 20
 
-    if (a and b):
+    if a and b:
         print("a and b 的返回值是", a and b, " 1 - 变量 a 和 b 都为 true")
     else:
         print("a and b 的返回值是", a and b, " 1 - 变量 a 和 b 有一个不为 true")
 
-    if (a or b):
+    if a or b:
         print("a or b 的返回值是", a or b, " 2 - 变量 a 和 b 都为 true，或其中一个变量为 true")
     else:
         print("a or b 的返回值是", a or b, " 2 - 变量 a 和 b 都不为 true")
 
     # 修改变量 a 的值
     a = 0
-    if (a and b):
+    if a and b:
         print("a and b 的返回值是", a and b, " 3 - 变量 a 和 b 都为 true")
     else:
         print("a and b 的返回值是", a and b, " 3 - 变量 a 和 b 有一个不为 true")
 
-    if (a or b):
+    if a or b:
         print("a or b 的返回值是", a or b, " 4 - 变量 a 和 b 都为 true，或其中一个变量为 true")
     else:
         print("a or b 的返回值是", a or b, " 4 - 变量 a 和 b 都不为 true")
 
-    if not (a and b):
+    if not a and b:
         print("5 - 变量 a 和 b 都为 false，或其中一个变量为 false")
     else:
         print("5 - 变量 a 和 b 都为 true")
@@ -165,6 +167,7 @@ def memberOperator():
     listB = [1, 2, 2, 3, 1, 2, 3, 1, 2, 3, 1, 3, 1, 2, 3, 1, 3, 2, 1]
     n = listB.pop()
     print(listB)
+    print(n)
     if 'a' in lista:
         print("a在列表lista中。")
     else:
@@ -190,12 +193,12 @@ def identityOperator():
     print("a的地址位", id(a))
     print("b的地址位", id(b))
 
-    if (a == b):
+    if a == b:
         print("1 - a 和 b 有相同的标识")
     else:
         print("1 - a 和 b 没有相同的标识")
 
-    if (id(a) == id(b)):
+    if id(a) == id(b):
         print("2 - a 和 b 有相同的标识")
     else:
         print("2 - a 和 b 没有相同的标识")
@@ -206,12 +209,12 @@ def identityOperator():
     print("a的地址位", id(a))
     print("b的地址位", id(b))
 
-    if (a == b):
+    if a == b:
         print("3 - a 和 b 有相同的标识")
     else:
         print("3 - a 和 b 没有相同的标识")
 
-    if (a != b):
+    if a != b:
         print("4 - a 和 b 没有相同的标识")
     else:
         print("4 - a 和 b 有相同的标识")
