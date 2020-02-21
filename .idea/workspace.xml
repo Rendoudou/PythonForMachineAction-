@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7cbdc8b-e5be-43ca-b261-04e796f4db77" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/learnIterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnClass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnOperator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnProgramFirstType.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnProgramFirstType.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnIterator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,38 +202,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="936" height="238" key="GridCell.Tab.0.bottom" timestamp="1582130943434">
+    <state width="936" height="288" key="GridCell.Tab.0.bottom" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943434" />
-    <state width="936" height="238" key="GridCell.Tab.0.center" timestamp="1582130943433">
+    <state width="936" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.0.center" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943433" />
-    <state width="936" height="238" key="GridCell.Tab.0.left" timestamp="1582130943433">
+    <state width="936" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.0.left" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943433" />
-    <state width="936" height="238" key="GridCell.Tab.0.right" timestamp="1582130943433">
+    <state width="936" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.0.right" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943433" />
-    <state width="936" height="291" key="GridCell.Tab.1.bottom" timestamp="1582130943422">
+    <state width="936" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.1.bottom" timestamp="1582291783230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="291" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943422" />
-    <state width="936" height="291" key="GridCell.Tab.1.center" timestamp="1582130943422">
+    <state width="936" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783230" />
+    <state width="936" height="288" key="GridCell.Tab.1.center" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="291" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943422" />
-    <state width="936" height="291" key="GridCell.Tab.1.left" timestamp="1582130943421">
+    <state width="936" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.1.left" timestamp="1582291783229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="291" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943421" />
-    <state width="936" height="291" key="GridCell.Tab.1.right" timestamp="1582130943422">
+    <state width="936" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
+    <state width="936" height="288" key="GridCell.Tab.1.right" timestamp="1582291783230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="291" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582130943422" />
+    <state width="936" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783230" />
     <state x="745" y="57" key="SettingsEditor" timestamp="1581845406927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="225" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582104436418" />
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582112103606">
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582286377030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582112103606" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582286377030" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581843306209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -360,18 +359,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnIterator.py</url>
-          <line>118</line>
+          <line>234</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnIterator.py</url>
-          <line>119</line>
+          <line>235</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnIterator.py</url>
-          <line>120</line>
+          <line>236</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnIterator.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnIterator.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
