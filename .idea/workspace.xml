@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7cbdc8b-e5be-43ca-b261-04e796f4db77" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/learnClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBFirstFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBGammaFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBLogFunction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BBXPowerX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formatDou.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnIterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnDataTypeNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnDataTypeNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +58,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/lenovo/.PyCharmCE2017.2/system/python_stubs/2090002999/builtins.py" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.learnIterator">
-    <configuration name="learnDataTypeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.formatDou">
+    <configuration name="BBFirstFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +73,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnDataTypeNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BBFirstFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BBXPowerX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BBXPowerX.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="formatDou" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/formatDou.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,27 +145,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="learnOperator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnOperator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="learnProgramFirstType" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,41 +166,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.learnDataTypeNumber" />
-      <item itemvalue="Python.learnOperator" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.learnProgramFirstType" />
       <item itemvalue="Python.learnIterator" />
+      <item itemvalue="Python.learnProgramFirstType" />
+      <item itemvalue="Python.BBFirstFile" />
+      <item itemvalue="Python.BBXPowerX" />
+      <item itemvalue="Python.formatDou" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.formatDou" />
+        <item itemvalue="Python.BBFirstFile" />
+        <item itemvalue="Python.BBXPowerX" />
         <item itemvalue="Python.learnIterator" />
         <item itemvalue="Python.learnProgramFirstType" />
-        <item itemvalue="Python.learnDataTypeNumber" />
-        <item itemvalue="Python.learnOperator" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -202,50 +210,54 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="936" height="288" key="GridCell.Tab.0.bottom" timestamp="1582291783229">
+    <state width="1899" height="238" key="GridCell.Tab.0.bottom" timestamp="1582648225835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.0.center" timestamp="1582291783229">
+    <state width="1899" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582648225835" />
+    <state width="1899" height="238" key="GridCell.Tab.0.center" timestamp="1582648225834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.0.left" timestamp="1582291783229">
+    <state width="1899" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582648225834" />
+    <state width="1899" height="238" key="GridCell.Tab.0.left" timestamp="1582648225834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.0.right" timestamp="1582291783229">
+    <state width="1899" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582648225834" />
+    <state width="1899" height="238" key="GridCell.Tab.0.right" timestamp="1582648225835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.1.bottom" timestamp="1582291783230">
+    <state width="1899" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582648225835" />
+    <state width="936" height="288" key="GridCell.Tab.1.bottom" timestamp="1582626391304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783230" />
-    <state width="936" height="288" key="GridCell.Tab.1.center" timestamp="1582291783229">
+    <state width="936" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582626391304" />
+    <state width="936" height="288" key="GridCell.Tab.1.center" timestamp="1582626391304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.1.left" timestamp="1582291783229">
+    <state width="936" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582626391304" />
+    <state width="936" height="288" key="GridCell.Tab.1.left" timestamp="1582626391304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783229" />
-    <state width="936" height="288" key="GridCell.Tab.1.right" timestamp="1582291783230">
+    <state width="936" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582626391304" />
+    <state width="936" height="288" key="GridCell.Tab.1.right" timestamp="1582626391304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582291783230" />
-    <state x="745" y="57" key="SettingsEditor" timestamp="1581845406927">
+    <state width="936" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582626391304" />
+    <state x="745" y="57" key="SettingsEditor" timestamp="1582611382679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="745" y="57" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581845406927" />
+    <state x="745" y="57" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582611382679" />
     <state x="728" y="225" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1582104436418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="225" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1582104436418" />
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582286377030">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582611196975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582286377030" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582611196975" />
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582645840264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582645840264" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581843306209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -264,52 +276,52 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>462</line>
+          <line>467</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>457</line>
+          <line>462</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>449</line>
+          <line>454</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>443</line>
+          <line>448</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>292</line>
+          <line>293</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>433</line>
+          <line>438</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>431</line>
+          <line>436</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>356</line>
+          <line>361</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>412</line>
+          <line>417</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
-          <line>426</line>
+          <line>431</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -381,6 +393,41 @@
           <url>file://$PROJECT_DIR$/learnIterator.py</url>
           <line>137</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnDataTypeNumber.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBFirstFile.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBFirstFile.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBFirstFile.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBXPowerX.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBFirstFile.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BBFirstFile.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

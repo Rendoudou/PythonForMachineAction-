@@ -19,7 +19,7 @@ def basicTest():
     del var1  # 解除对var1的引用
     # print(id(var1))
     print(id(var2))
-    return
+    pass
 
 
 #
@@ -67,7 +67,7 @@ def mathematicalForPython():
                  其实准确的说是保留值将保留到离上一位更近的一端。数据截取用模块，精度不高
     sqrt(x) 求平方根
     '''
-    return
+    pass
 
 
 #
@@ -105,7 +105,7 @@ def randomData():
     print("uniform(5, 10) 的随机浮点数 : ", random.uniform(5, 10))
     print("uniform(7, 14) 的随机浮点数 : ", random.uniform(7, 14))
 
-    return
+    pass
 
 
 #
@@ -134,7 +134,7 @@ def stringPython():
     # f-string
 
     # 数字格式化
-    return
+    pass
 
 
 #
@@ -201,7 +201,7 @@ def listPython():
     # 嵌套列表
     # listAdd = [list1Temp, list2, list3]
 
-    return
+    pass
 
 
 #
@@ -253,7 +253,8 @@ def tuplePython():
     '''
     # 所谓元组的不可变指的是元组所指向的内存中的内容不可变。
     # 不能做一维操作，如果元组中存在列表等，要另行考虑。
-    return
+
+    pass
 
 
 #
@@ -324,7 +325,8 @@ def dictPython():
     """
     seqTemp = ('name', 'sex', 'age')
     dictFromSeqTemp = dict.fromkeys(seqTemp)
-    return
+
+    pass
 
 
 #
@@ -333,18 +335,21 @@ def dictPython():
 countryCounter = {}  # 局部静态
 
 
+# 逐个添加
 def addOne(countryIn):
     if countryIn in countryCounter:
         countryCounter[countryIn] += 1
     else:
         countryCounter[countryIn] = 1
-    return
 
+    pass
 
+# 利用addone批量操作
 def countInList(inCountry):
     for tempI in inCountry:
         addOne(tempI)
-    return
+
+    pass
 
 
 #
@@ -410,7 +415,7 @@ def setPython():
     set.union()返回两个集合的并集
     set.update()给集合添加元素
     """
-    return
+    pass
 
 
 '''

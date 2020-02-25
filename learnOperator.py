@@ -40,7 +40,7 @@ def mathematicsOperator():
     b = 5
     c = a // b
     print("7 - c 的值为：", c)
-    return
+    pass
 
 
 #
@@ -55,7 +55,8 @@ def compareOperator():
         print("n大于3")
     else:
         print("n小于等于3")
-    return
+
+    pass
 
 
 #
@@ -87,7 +88,8 @@ def assignmentOperator():
 
     c //= a
     print("7 - c 的值为：", c)
-    return
+
+    pass
 
 
 #
@@ -115,7 +117,8 @@ def bitOperator():
 
     c = a >> 2  # 15 = 0000 1111
     print("6 - c 的值为：", c)
-    return
+
+    pass
 
 
 #
@@ -154,7 +157,8 @@ def logicOperator():
         print("5 - 变量 a 和 b 都为 false，或其中一个变量为 false")
     else:
         print("5 - 变量 a 和 b 都为 true")
-    return
+
+    pass
 
 
 #
@@ -177,7 +181,8 @@ def memberOperator():
         print("a不在列表lista中。")
     else:
         print("a在列表lista中。")
-    return
+
+    pass
 
 
 #
@@ -218,7 +223,8 @@ def identityOperator():
         print("4 - a 和 b 没有相同的标识")
     else:
         print("4 - a 和 b 有相同的标识")
-    return
+
+    pass
 
 
 #
@@ -256,7 +262,8 @@ def priorityOperator():
         print("yes")
     else:
         print("no")
-    return
+
+    pass
 
 
 #
@@ -264,4 +271,5 @@ def priorityOperator():
 # prepare for debug itself
 #
 if __name__ == '__main__':
+
     pass

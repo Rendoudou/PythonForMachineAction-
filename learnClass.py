@@ -19,14 +19,14 @@ class MyNumbers:
 
     # def __init__(self, *args):
     #    pass
-
+    # 构造函数
     def __init__(self, heightIn, widthIn, recordIn):  # 构造方法,self代表类的实例而非类
-
         print("创建中...")
         self.__height = heightIn
         self.__width = widthIn
         self.record = recordIn
         print("创建完毕...")
+
         pass
 
     # 类方法
@@ -35,21 +35,30 @@ class MyNumbers:
         print("创建中...")
         return cls(0, 0, 0)  # 调用主构造函数
 
+        pass
+
     # 类的方法与普通的函数只有一个特别的区别——它们
     # 必须有一个额外的第一个参数名称, 按照惯例它的名称是 self。
-
+    # 迭代器 class __iter__
     def __iter__(self):
         self.record = 1
         return self
 
+        pass
+
+    # 迭代 class __next__
     def __next__(self):
         x = self.record
         self.record = self.record + 1
         return x
 
+        pass
+
+    # 打印自身信息
     def prtSelf(self):
         print("self: ", self)  # self 代表的是类的实例，代表当前对象的地址
         print("class: ", self.__class__)  # self.class 则指向类
+
         pass
 
     pass
@@ -71,7 +80,6 @@ class LiveAnimal:
 
     # 构造函数
     def __init__(self, *args):
-
         if (type(args) == list) & (len(args) >= 7):
             self.__bloodVolume = int(args[0])
             self.__specieName = str(args[1])
@@ -82,27 +90,40 @@ class LiveAnimal:
             self.__basicDefensivePower = int(args[6])
         else:
             print("init error...")
+
         pass
 
     # 析构函数
     def __del__(self):
         print(f'{self.__specieName} die...')
+
         pass
 
     # 类方法
     @classmethod
     def constructClass(cls):
         return cls([0, "unknown", 0, 0, 0, 0, 0])
+
         pass
 
+    # 返回种族名
     def getSpecieName(self):
         return self.__specieName
+
+        pass
+
+    # 设置是否可破坏
+    def setDestroyFlag(self, flagIn):
+        self.__destroyAble = flagIn
+
+        pass
 
     pass
 
 
 #
 # 类继承 子类
+# class PeopleNpc
 #
 class PeopleNpc(LiveAnimal):
     # 私有变量
@@ -113,9 +134,30 @@ class PeopleNpc(LiveAnimal):
 
         if (type(*args) == list) & (len(*args) == 7):
             super().__init__(*args)
+            self.setDestroyFlag(False)  # 不可破坏
         else:
             print("init error")
+
         pass
 
     pass
 
+
+#
+# 类继承 子类
+# class PeoplePlayer
+#
+class PeoplePlayer(LiveAnimal):
+
+    # 构造函数
+    def __init__(self, *args):
+
+        if (type(*args) == list) & (len(*args) == 7):
+            super().__init__(*args)
+            self.setDestroyFlag(True)  # 不可破坏
+        else:
+            print("init error")
+
+        pass
+
+    pass
